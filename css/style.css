@@ -52,8 +52,9 @@ ul {
     background: white;
     padding: 0 2rem;
     height: 0rem;
-    min-height: 10vh;
+    min-height: 9vh;
     overflow: hidden;
+    transition: height 1s ease-in-out;
 }
 
 .nav .nav-menu {
@@ -76,12 +77,11 @@ ul {
 
 .nav .toggle-collapse .toggle-icons i {
     font-size: 1.4rem;
-    columns: var(--text-agray);
+    color: var(--text-agray);
 }
 
-.nav .toggle-collapse .toggle-icons i {
-    font-size: 1.4rem;
-    color: var(--text-agray);
+.collapse {
+    height: 30rem;
 }
 
 .nav .nav-items {
